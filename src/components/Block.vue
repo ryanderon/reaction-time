@@ -35,7 +35,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .block {
   width: 400px;
   border-radius: 16px;
