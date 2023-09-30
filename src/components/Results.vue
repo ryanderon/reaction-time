@@ -9,12 +9,12 @@
 
 <script>
 export default {
-  props: ["score"],
   data() {
     return {
       rank: null,
     };
   },
+  props: ["score"],
   mounted() {
     if (this.score > 350) {
       this.rank = "Iron";
